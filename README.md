@@ -41,13 +41,13 @@ http://localhost:8080
 
 ## API Endpoints
 
-| Method | Endpoint           | Description        |
-| ------ | ------------------ | ------------------ |
-| GET    | `/health`          | Health check       |
-| POST   | `/email/generate`  | Generate an email  |
-| POST   | `/email/reply`     | Generate a reply   |
-| POST   | `/email/summarize` | Summarize an email |
-| POST   | `/email/rewrite`   | Rewrite an email   |
+The application provides the following REST APIs:
+
+* **GET** `/health` – Checks whether the application is running.
+* **POST** `/email/generate` – Generates a professional email from a given prompt.
+* **POST** `/email/reply` – Creates a reply based on the original email and your instructions.
+* **POST** `/email/summarize` – Summarizes long email content into a concise version.
+* **POST** `/email/rewrite` – Rewrites an email in a different tone, such as Professional, Friendly, Formal, or Casual.
 
 ## Configuration
 
